@@ -1,0 +1,98 @@
+:root {
+   --primary-text-color: #757575;
+   --title-text-color: #212121;
+   --accent-color: #2196F3;
+   --primary-bg-color: #FFFFFF;
+   --header-logo-color: #000000;
+   --address-link-color: rgba(255, 255, 255, 0.6);
+
+}
+.page {
+   background-color: var(--primary-bg-color);
+   color: var(--primary-text-color);
+}
+.link {
+   text-decoration: none;
+}
+.link:hover, .link:focus {
+   color: var(--accent-color);
+}
+ul {
+   list-style: none;
+}
+/* Header */
+.link .logo {
+   color: var(--accent-color);
+}
+header > a {
+   color: var(--header-logo-color);
+}
+.nav-style .link {
+   color: var(--title-text-color);
+}
+.nav-style .link:hover,
+.nav-style .link:focus {
+   color: var(--accent-color);
+}
+.nav-style .link.current {
+   color: var(--accent-color) ;
+}
+.contacts .link {
+   color: var(--primary-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+   color: var(--accent-color);
+}
+/* footer */
+footer > a {
+   color: var(--primary-bg-color);
+}
+.address .text-link {
+   color: var(--primary-bg-color);
+}
+.address .text-link:hover, .address .text-link:focus {
+   color: var(--accent-color);
+}
+.address .link {
+   color: var(--address-link-color);
+}
+.address .link:hover, .address .link:focus {
+   color: var(--accent-color);
+}
+/* hero */
+.hero-title {
+   color: ;
+}
+/* section */
+.section-title {
+   color: var(--title-text-color);
+}
+/* feature */
+.feature-list .title {
+   color: var(--title-text-color);
+}
+/* team */
+.team-title {
+   color: var(--title-text-color);
+}
+/* button */
+.button {
+   color: var(--primary-bg-color);
+   background-color: var(--accent-color);
+}
+
+/* Webstudio header #000000 + #2196F3 */
+/* header ссылки #212121 */
+/* телефон header #757575 */
+/* ссылки при ховере в header #2196F3 */
+/* H1 #FFFFFF */
+/* кнопка #FFFFFF */
+/* H2 и H3 #212121 */
+/* цвет p #757575 */
+/* имена в карточках #212121 */
+/* должности в карточках #757575 */
+/* WebStudio футер #2196F3 + #FFFFFF */
+/* адресс футер #FFFFFF
+почта и тел футер rgba(255, 255, 255, 0.6) */
+/* основной цвет #212121 вторичный #757575 */
